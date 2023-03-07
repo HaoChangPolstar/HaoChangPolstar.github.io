@@ -1,14 +1,31 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hao Page</title>
+    <meta charset="utf-8" />
+    <title>Navigation Demo</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    Hi Welcome 
-
-    <button>Click Me!</button>
+    <iframe
+        allow="geolocation"
+        width="375px"
+        height="598px"
+        allowFullScreen
+        frameBorder="0"
+        src="https://www.polstarapis.com/demo/navigation/map?apikey={API_KEY}&dposition=24.84218,121.013875&dname=POLSTAR北宸科技&dplaceId=va4HrVpPQePs28IWSV3EEw==">
+    </iframe>
 </body>
 </html>
